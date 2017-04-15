@@ -1,7 +1,8 @@
 {% load static %}
 <!-- start header -->
 <header>
-    <div class="top">
+    {% if needed %}
+        <div class="top">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -23,6 +24,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
 
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">

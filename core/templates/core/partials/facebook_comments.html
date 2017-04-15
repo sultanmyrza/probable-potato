@@ -1,0 +1,33 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your embedded comments code -->
+<div class="fb-comments" data-href="{{ request.build.absolute_url }}" data-numposts="5"></div>
+
+<!-- Your like button code -->
+  <div class="fb-like"
+    data-href="{{ request.build.absolute_url }}"
+    data-layout="standard"
+    data-action="like"
+    data-show-faces="true">
+  </div>
+
+
+<!-- Your share button code -->
+  <div class="fb-share-button"
+    data-href="{{ request.build.absolute_url }}"
+    data-layout="button_count">
+  </div>
+
+<!-- Your send button code -->
+  <div class="fb-send"
+    data-href="{{ request.build.absolute_url }}"
+    data-layout="button_count">
+  </div>
+

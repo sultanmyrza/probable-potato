@@ -2,13 +2,11 @@
 
 {% block header %}
     {% include 'core/partials/header.html' %}
-    {% include 'core/partials/slider.html' with events=vip_events %}
 {% endblock header %}
 
 {% block content %}
     <div class="row">
-        {% include 'core/partials/timeline1.html' with events=important_events %}
+        {% include 'core/partials/left_content.html' with event=event %}
         {% include 'core/partials/right_panel.html' %}
     </div>
-
 {% endblock content %}

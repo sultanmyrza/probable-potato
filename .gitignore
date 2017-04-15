@@ -2,5 +2,5 @@
 /static
 db.sqlite3
 media
-.idea/w
+.idea/
 core/templates/Sailor/
