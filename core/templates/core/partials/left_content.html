@@ -1,10 +1,12 @@
+{% load cropping %}
+
 <div class="col-lg-8">
     <article>
         <div class="post-image">
             <div class="post-heading">
                 <h3><a href="#">{{ event.title }}</a></h3>
             </div>
-            <img src="{{ event.get_image }}" alt="" class="img-responsive">
+            <img src="{% cropped_thumbnail event.get_image "facebook_ratio" %}" alt="" class="img-responsive">
         </div>
         <p>
             {{ event.description }}

@@ -36,7 +36,12 @@ class Event(models.Model):
                                           verbose_name=_('facebook message'))
 
     def get_image(self):
+        return self.eventimage_set.first()
+
+
+    def get_image_url(self):
         return self.eventimage_set.first().image.url
+
 
     def get_images(self):
         return [image.image.url for image in self.eventimage_set.all()]
@@ -64,7 +69,7 @@ class EventImage(models.Model):
     image = models.ImageField(upload_to='event_images', verbose_name=_('Image'))
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     cropping = ImageRatioField('image', '1920x700')
-    facebook_ratio = ImageRatioField('image', '1200x628')
+    facebook_ratio = ImageRatioField('image', '1200x628') # for slider
     pinterest_ratio = ImageRatioField('image', '1102x735')
     for_thumb = ImageRatioField('image', '400x300')
 
