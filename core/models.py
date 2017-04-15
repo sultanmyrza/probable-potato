@@ -41,6 +41,16 @@ class Event(models.Model):
     def get_images(self):
         return [image.image.url for image in self.eventimage_set.all()]
 
+
+    def get_day(self):
+        return self.start_date.day
+
+    def get_weekday(self):
+        return self.start_date.strftime('%A')
+
+    def get_month(self):
+        return self.start_date.strftime('%B')
+
     # def __str__(self):
     def __unicode__(self):
         return self.title

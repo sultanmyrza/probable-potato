@@ -8,9 +8,9 @@
                 <div class="col-sm-2">
                     <!-- the icon as a time element -->
                     <time datetime="2014-09-20" class="icon" style="margin-bottom: 20px">
-                        <em>Saturday</em>
-                        <strong>September</strong>
-                        <span style="padding-top: 43px;">20</span>
+                        <em>{{ event.get_weekday }}</em>
+                        <strong>{{ event.get_month }}</strong>
+                        <span style="padding-top: 43px;">{{ event.get_day }}</span>
                     </time>
                 </div>
                 <div class="col-sm-10">
