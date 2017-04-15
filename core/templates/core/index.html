@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+{% block content %}
+	{% include 'core/partials/slider.html' %}
+	<section id="content">		
+		<div class="container">
+			<div class="row">
+			{% include 'core/partials/timeline.html' %}
+			{% include 'core/partials/right_panel.html' %}
+			</div>
+		</div>	
+		{% include 'core/partials/blank_divider.html' %}
+		{% include 'core/partials/gallery_widget.html' %}
+		{% include 'core/partials/solid_divider.html' %}
+	</section>
+{% endblock content %}

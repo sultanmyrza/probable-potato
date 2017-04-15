@@ -1,0 +1,6 @@
+CREATE DATABASE kultur_merkezi;
+CREATE USER merkez WITH PASSWORD '123qwe123';
+
+ALTER ROLE merkez SET client_encoding TO 'utf8';
+ALTER ROLE merkez SET default_transaction_isolation TO 'read committed';
+ALTER ROLE merkez SET timezone TO 'UTC';

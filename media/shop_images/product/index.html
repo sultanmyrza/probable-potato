@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter eveno link</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" name="">
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+{% block content %}
+	<section id="content">		
+		<div class="container">
+			<div class="row">
+			{% block detail %}
+			{% endblock detail %}
+			{% include 'core/partials/right_panel.html' %}
+			</div>
+		</div>	
+		{% include 'core/partials/blank_divider.html' %}
+	</section>
+{% endblock content %}
