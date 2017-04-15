@@ -577,7 +577,7 @@ header ul.nav li ul li.dropdown-submenu li a {
 	padding:0;
 }
 #featured.bg {
-	/*background: url(../img/dummies/feat-bg.jpg) no-repeat top center;*/
+	background: url(../img/dummies/feat-bg.jpg) no-repeat top center;
 }
 
 /* ===================================

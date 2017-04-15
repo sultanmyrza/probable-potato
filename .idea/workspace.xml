@@ -2,9 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d8376e2-e80c-4529-a687-79121e53e71b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/1.jpg.300x300_q85_detail_upscale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/8465489161_068a9cbdac_b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/8465489161_068a9cbdac_b.jpg.300x300_q85_detail_upscale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/ML.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/ML.png.300x300_q85_detail_upscale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/Photo2_Home_960x557_option1_new.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/Photo2_Home_960x557_option1_new.jpg.300x300_q85_detail_upscale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/blog-leftsidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/event_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/nd889.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/nd889.png.300x300_q85_detail_upscale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/right-sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/templates/core/slide2.jpg.300x300_q85_detail_upscale.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/fonts/customicon/Icons.eot" afterPath="$PROJECT_DIR$/staticfiles/core/fonts/customicon/Icons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/fonts/customicon/Icons.woff" afterPath="$PROJECT_DIR$/staticfiles/core/fonts/customicon/Icons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.eot" afterPath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.ttf" afterPath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.woff" afterPath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg1.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg10.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg2.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg3.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg4.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg5.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg6.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg7.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg8.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg9.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/bodybg/bg9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/clients/logo2.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/clients/logo2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/clients/logo3.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/clients/logo3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/clients/logo4.png" afterPath="$PROJECT_DIR$/staticfiles/core/img/clients/logo4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/65x65/thumb1.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/65x65/thumb1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/65x65/thumb2.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/65x65/thumb2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/65x65/thumb3.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/65x65/thumb3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/img1.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/img1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/img3.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/dummies/blog/img3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/parallax/1.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/parallax/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/parallax/2.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/parallax/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/parallax/3.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/parallax/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/parallax/4.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/parallax/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/slides/flexslider/1.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/slides/flexslider/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/slides/flexslider/2.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/slides/flexslider/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/slides/flexslider/3.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/slides/flexslider/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/works/10.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/works/10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/works/11.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/works/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/works/1big-1.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/works/1big-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/img/works/9big.jpg" afterPath="$PROJECT_DIR$/staticfiles/core/img/works/9big.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.eot" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.ttf" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.woff" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/images/bg_play_pause.png" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/images/bg_play_pause.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/probable-potato.iml" afterPath="$PROJECT_DIR$/.idea/probable-potato.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/core/base.html" afterPath="$PROJECT_DIR$/core/templates/core/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/core/index.html" afterPath="$PROJECT_DIR$/core/templates/core/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/urls.py" afterPath="$PROJECT_DIR$/project/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/css/flexslider.css" afterPath="$PROJECT_DIR$/staticfiles/core/css/flexslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/css/font-awesome.css" afterPath="$PROJECT_DIR$/staticfiles/core/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/css/style.css" afterPath="$PROJECT_DIR$/staticfiles/core/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.svg" afterPath="$PROJECT_DIR$/staticfiles/core/fonts/revicons/revicons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/js/animate.js" afterPath="$PROJECT_DIR$/staticfiles/core/js/animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/js/jquery.min.js" afterPath="$PROJECT_DIR$/staticfiles/core/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/js/modernizr.custom.js" afterPath="$PROJECT_DIR$/staticfiles/core/js/modernizr.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/js/optionspanel.js" afterPath="$PROJECT_DIR$/staticfiles/core/js/optionspanel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/js/stellar.js" afterPath="$PROJECT_DIR$/staticfiles/core/js/stellar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/flexslider.config.js" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/flexslider.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/flexslider.css" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/flexslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.svg" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/fonts/flexslider-icon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/jquery.flexslider-min.js" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/flexslider/jquery.flexslider-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/extralayers.css" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/extralayers.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/jquery.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/jquery.themepunch.revolution.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/jquery.themepunch.tools.min.js" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/jquery.themepunch.tools.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/revslider.js" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/revslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/rs-settings.css" afterPath="$PROJECT_DIR$/staticfiles/core/plugins/revslider/rs-settings.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/skins/blue.css" afterPath="$PROJECT_DIR$/staticfiles/core/skins/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/skins/default.css" afterPath="$PROJECT_DIR$/staticfiles/core/skins/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/skins/green.css" afterPath="$PROJECT_DIR$/staticfiles/core/skins/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/skins/lime.css" afterPath="$PROJECT_DIR$/staticfiles/core/skins/lime.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/skins/rose.css" afterPath="$PROJECT_DIR$/staticfiles/core/skins/rose.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/core/skins/yellow.css" afterPath="$PROJECT_DIR$/staticfiles/core/skins/yellow.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,31 +103,93 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/Sailor/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/Sailor/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="723" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/core/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="724" selection-end-column="7" />
+              <folding>
+                <marker date="1492227867347" expanded="true" signature="39508:39528" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="177">
               <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog-leftsidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/blog-leftsidebar.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1560">
+            <state relative-caret-position="60">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right-sidebar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/right-sidebar.html">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/core/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="723" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -53,6 +199,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/core/templates/core/blog-leftsidebar.html" />
+        <option value="$PROJECT_DIR$/core/templates/core/partials/header.html" />
+        <option value="$PROJECT_DIR$/core/templates/core/partials/slider.html" />
+        <option value="$PROJECT_DIR$/../Sailor/index.html" />
+        <option value="$PROJECT_DIR$/core/templates/core/partials/timeline.html" />
+        <option value="$PROJECT_DIR$/core/templates/core/partials/right_panel.html" />
+        <option value="$PROJECT_DIR$/core/templates/core/partials/blank_divider.html" />
+        <option value="$PROJECT_DIR$/core/templates/core/partials/gallery_widget.html" />
+        <option value="$PROJECT_DIR$/core/templates/core/base.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/core/templates/core/index.html" />
+        <option value="$PROJECT_DIR$/project/urls.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -116,15 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
+              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -135,54 +291,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="probable-potato" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="probable-potato" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="probable-potato" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="probable-potato" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="probable-potato" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -201,6 +309,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/templates" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -214,6 +327,81 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.probable-potato">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="probable-potato" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="probable-potato" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="probable-potato" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,6 +423,84 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="probable-potato" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="probable-potato" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="probable-potato" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="probable-potato" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="false" name="probable-potato" type="Python.DjangoServer" factoryName="Django server">
@@ -281,15 +547,16 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5060606" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.4939394" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4939394" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -297,7 +564,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -313,26 +579,189 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/settings.py">
+    <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="-283">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/1.jpg.300x300_q85_detail_upscale.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/right-sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/templates/core/blog-leftsidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1560">
+        <state relative-caret-position="80">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="81" column="34" lean-forward="false" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sailor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/partials/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/partials/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/partials/right_panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/partials/blank_divider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/partials/gallery_widget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/core/right-sidebar.html">
+    <entry file="file://$PROJECT_DIR$/core/templates/Sailor/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="723" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/Sailor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="723" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="724" selection-end-column="7" />
+          <folding>
+            <marker date="1492227867347" expanded="true" signature="39508:39528" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
