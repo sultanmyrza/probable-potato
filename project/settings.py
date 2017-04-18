@@ -25,7 +25,7 @@ SECRET_KEY = 'y60#kqjp+0+=j+1x$ht=ie-yg4=i@)u!@6ln&(sz%@qj+rv_t4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['128.199.158.164', 'localhost']
 
 
 # Application definition
@@ -85,15 +85,18 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'kultur_merkezi',
-#         'USER': 'merkez',
-#         'PASSWORD': '123qwe123',
-#         'HOST': 'localhost',
-#     }
-# }
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
+        'PASSWORD': '123qwe123',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
 
 
 # Password validation
