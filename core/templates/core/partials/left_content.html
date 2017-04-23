@@ -6,7 +6,7 @@
             <div class="post-heading">
                 <h3><a href="#">{{ event.title }}</a></h3>
             </div>
-            <img src="{% cropped_thumbnail event.get_image "facebook_ratio" %}" alt="" class="img-responsive">
+            <img src="{% cropped_thumbnail event.get_image "facebook_ratio" %}" class="img-responsive">
         </div>
         <p>
             {{ event.description }}
