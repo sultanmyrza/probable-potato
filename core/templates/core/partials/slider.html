@@ -13,7 +13,7 @@
                         {% for event in vip_events %}
                             <li>
                                 {# TODO: add image copper #}
-                                <img src="{% cropped_thumbnail event.get_image "facebook_ratio" %}" />
+                                <img src="{% cropped_thumbnail event.get_image "cropping" %}" />
                                 <div class="flex-caption">
                                     <h3>{{ event.title }}</h3>
                                     <p>{{ event.description }}</p>
