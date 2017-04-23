@@ -17,7 +17,7 @@
                                 <div class="flex-caption">
                                     <h3>{{ event.title }}</h3>
                                     <p>{{ event.description }}</p>
-                                    <a href="#" class="btn btn-theme">Learn More</a>
+                                    <a href="{% url 'core:event_detail' event.id %}" class="btn btn-theme">Learn More</a>
                                 </div>
                             </li>
                         {% endfor %}
