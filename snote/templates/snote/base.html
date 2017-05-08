@@ -1,0 +1,44 @@
+{% load static %}
+<html>
+{% block head %}
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="{% static 'bootstrap/3.3.7/css/bootstrap.min.css' %}">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="{% static 'bootstrap/3.3.7/css/bootstrap-theme.min.css' %}">
+        <!-- Latest compiled and minified JavaScript -->
+
+        <link href="{% static 'snote/css/vis.min.css' %}" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="{% static 'snote/css/font-awesome.min.css' %}">
+
+        <script type="text/javascript" src="{% static 'snote/js/vis.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'snote/js/jquery-3.2.1.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'snote/js/sticky-kit.min.js' %}"></script>
+
+        <style>
+            body {
+                color: #d3d3d3;
+                font: 12pt arial;
+                background-color: #222222;
+            }
+
+            #mynetwork {
+                border: 1px solid #444444;
+                background-color: #222222;
+            }
+            .pre-scrollable {
+                max-height: 100%;
+                overflow-y: auto;
+            }
+            .affix {
+                position: sticky;
+            }
+        </style>
+    </head>
+{% endblock head %}
+
+<body>
+{% block body %}
+{% endblock body %}
+</body>
+</html>

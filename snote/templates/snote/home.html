@@ -1,0 +1,215 @@
+{% extends 'snote/base.html' %}
+
+{% block body %}
+    <div class="row"></div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " id="sticky_column" style="max-height: 100%">
+                <div id="mynetwork"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+                <pre id="nodeSummary"></pre>
+                <div id="nodeNotes" class="pre-scrollable1"></div>
+                <pre class="" id="eventSpan" style="display: none"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $("#sticky_column").stick_in_parent()
+    </script>
+
+    <script type="text/javascript">
+        // create an array with nodes
+        var nodes = new vis.DataSet({{ nodes|safe }});
+
+        // create an array with edges
+        var edges = new vis.DataSet({{ edges|safe }});
+
+        // create a network
+        var container = document.getElementById('mynetwork');
+
+        // provide the data in the vis format
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+
+
+        var options = {
+            nodes: {
+                shape: 'dot',
+                size: 20,
+                font: {
+                    size: 15,
+                    color: '#ffffff'
+                },
+                borderWidth: 2
+            },
+            edges: {
+                width: 2
+            },
+            groups: {
+                diamonds: {
+                    color: {background:'red',border:'white'},
+                    shape: 'diamond'
+                },
+                dotsWithLabel: {
+                    label: "I'm a dot!",
+                    shape: 'dot',
+                    color: 'cyan'
+                },
+                mints: {color:'rgb(0,255,140)'},
+                icons: {
+                    shape: 'icon',
+                    icon: {
+                        face: 'FontAwesome',
+                        code: '\uf0c0',
+                        size: 50,
+                        color: 'orange'
+                    }
+                },
+                source: {
+                    color:{border:'white'}
+                }
+            }
+        };
+
+
+        // initialize your network!
+        var options = {
+            interaction:{hover:true},
+            nodes: {
+                shape: 'dot',
+                size: 20,
+                font: {
+                    size: 15,
+                    color: '#ffffff'
+                },
+                borderWidth: 2
+            },
+            edges: {
+                width: 2,
+            },
+            groups: {
+                diamonds: {
+                    color: {background:'red',border:'white'},
+                    shape: 'diamond'
+                },
+                dotsWithLabel: {
+                    label: "I'm a dot!",
+                    shape: 'dot',
+                    color: 'cyan'
+                },
+                mints: {color:'rgb(0,255,140)'},
+                icons: {
+                    shape: 'icon',
+                    icon: {
+                        face: 'FontAwesome',
+                        code: '\uf0c0',
+                        size: 50,
+                        color: 'orange'
+                    }
+                },
+                source: {
+                    color:{border:'white'}
+                }
+            },
+            layout: {
+                randomSeed: undefined,
+                improvedLayout:true,
+                hierarchical: {
+                    enabled:true,
+                    levelSeparation: 150,
+                    nodeSpacing: 100,
+                    treeSpacing: 200,
+                    blockShifting: true,
+                    edgeMinimization: true,
+                    parentCentralization: true,
+                    direction: 'UD',        // UD, DU, LR, RL
+                    sortMethod: 'directed'   // hubsize, directed
+                }
+            }
+        };
+        var network = new vis.Network(container, data, options);
+
+        network.on("click", function (params) {
+            params.event = "[original event]";
+
+            var summary = data["nodes"]["_data"][params.nodes]["summary"];
+            document.getElementById('nodeSummary').innerHTML = summary;
+
+            // clear notes
+            document.getElementById('nodeNotes').innerHTML = "";
+
+            var html = '<h2>Click event:</h2>' + JSON.stringify(params, null, 4) + params.nodes;
+            document.getElementById('eventSpan').innerHTML = html;
+
+        });
+        network.on("doubleClick", function (params) {
+            params.event = "[original event]";
+            $.ajax({
+                type: "GET",
+                url: "/snote/"+params.nodes+'/notes',
+                success: function (result) {
+                    console.log('SUCCESS OF DOUBLE CLICK');
+                    $("#nodeNotes").html(result);
+                }
+            });
+            document.getElementById('eventSpan').innerHTML = '<h2>doubleClick event:</h2>' + JSON.stringify(params, null, 4);
+        });
+        network.on("oncontext", function (params) {
+            params.event = "[original event]";
+            document.getElementById('eventSpan').innerHTML = '<h2>oncontext (right click) event:</h2>' + JSON.stringify(params, null, 4);
+        });
+        network.on("dragStart", function (params) {
+            params.event = "[original event]";
+            document.getElementById('eventSpan').innerHTML = '<h2>dragStart event:</h2>' + JSON.stringify(params, null, 4);
+        });
+        network.on("dragging", function (params) {
+            params.event = "[original event]";
+            document.getElementById('eventSpan').innerHTML = '<h2>dragging event:</h2>' + JSON.stringify(params, null, 4);
+        });
+        network.on("dragEnd", function (params) {
+            params.event = "[original event]";
+            document.getElementById('eventSpan').innerHTML = '<h2>dragEnd event:</h2>' + JSON.stringify(params, null, 4);
+        });
+        network.on("zoom", function (params) {
+            document.getElementById('eventSpan').innerHTML = '<h2>zoom event:</h2>' + JSON.stringify(params, null, 4);
+        });
+        network.on("showPopup", function (params) {
+            document.getElementById('eventSpan').innerHTML = '<h2>showPopup event: </h2>' + JSON.stringify(params, null, 4);
+        });
+        network.on("hidePopup", function () {
+            console.log('hidePopup Event');
+        });
+        network.on("select", function (params) {
+            console.log('select Event:', params);
+        });
+        network.on("selectNode", function (params) {
+            console.log('selectNode Event:', params);
+        });
+        network.on("selectEdge", function (params) {
+            console.log('selectEdge Event:', params);
+        });
+        network.on("deselectNode", function (params) {
+            console.log('deselectNode Event:', params);
+        });
+        network.on("deselectEdge", function (params) {
+            console.log('deselectEdge Event:', params);
+        });
+        network.on("hoverNode", function (params) {
+            console.log('hoverNode Event:', params);
+        });
+        network.on("hoverEdge", function (params) {
+            console.log('hoverEdge Event:', params);
+        });
+        network.on("blurNode", function (params) {
+            console.log('blurNode Event:', params);
+        });
+        network.on("blurEdge", function (params) {
+            console.log('blurEdge Event:', params);
+        });
+    </script>
+{% endblock body %}
