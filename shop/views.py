@@ -16,9 +16,20 @@ def home(request):
 
 
 def product_detail(request, product_id):
+    product = Product.objects.get(id=product_id)
+
+    categories = Category.objects.all()
+    category = categories.get(id=product.category.id)
+    random_products = category.product_set.all()
+    print len(random_products)
+    if len(random_products) > 3:
+        print 'before', len(random_products)
+        random_products = random_products[:3]
+        print 'after ', len(random_products)
     context = {
-        'categories': Category.objects.all(),
-        'product': Product.objects.get(id=product_id)
+        'categories': categories,
+        'product': product,
+        'suggestions': random_products,
     }
     return render(request, 'shop/product_detail.html', context)
 

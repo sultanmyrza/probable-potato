@@ -35,7 +35,7 @@
                             </div>
                             <!-- end normal -->
                             <div class="quick-view">
-                                <a href="detail.html">Quick view</a>
+                                <a href="{% url 'shop:product_detail' product.id %}">Quick view</a>
                             </div>
                         </div>
                     {% endfor %}
