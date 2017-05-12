@@ -1,0 +1,52 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+{% load cropping %}
+
+{% block body %}
+    {% include 'shop/partials/header.html' with category=category %}
+
+    {% block content %}
+        <!--bread crumb-->
+        <div class="products-gallery">
+            <div class="container">
+                <div class="col-md-12 grid-gallery">
+                    {% for product in products %}
+                        <div class="col-md-4 grid-stn simpleCart_shelfItem">
+                            <!-- normal -->
+                            <div class="ih-item square effect3 bottom_to_top">
+                                <div class="bottom-2-top">
+                                    <div class="img">
+                                        {% if product.get_image %}
+                                            <img src="{% cropped_thumbnail product.get_image "grid" %}" alt="/" class="img-responsive gri-wid">
+                                        {% else %}
+                                            <img src="" alt="No image" class="img-responsive gri-wid">
+                                        {% endif %}
+                                    </div>
+
+                                    <div class="info">
+                                        <div class="pull-left styl-hdn">
+                                            <h3>{{ product.title }}</h3>
+                                        </div>
+                                        <div class="pull-right styl-price">
+                                            <p><a  href="#" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div></div>
+                            </div>
+                            <!-- end normal -->
+                            <div class="quick-view">
+                                <a href="detail.html">Quick view</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    {% endblock content %}
+
+    {% include 'shop/partials/sub_news.html' %}
+    {% include 'shop/partials/footer.html' %}
+{% endblock body %}

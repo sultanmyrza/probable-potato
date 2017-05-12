@@ -2,22 +2,22 @@ from django.contrib import admin
 from image_cropping import ImageCroppingMixin 
 
 from shop.models import (
-    Category, SubCategory, CategoryImage, 
+    Category, CategoryImage,
     Product, ProductImage,
 )
 
 
-
-class CategoryImageInline(ImageCroppingMixin, admin.TabularInline):
-    model = CategoryImage
+class ProductInline(ImageCroppingMixin, admin.TabularInline):
+    model = Product
     extra = 0
     max_num = 2
 
 
 class CategoryAdmin(admin.ModelAdmin):
     inlines = [
-        CategoryImageInline,
-    ]    
+        # ProductInline,
+    ]
+
 
 
 class ProductImageInline(ImageCroppingMixin, admin.TabularInline):
@@ -29,9 +29,9 @@ class ProductAdmin(admin.ModelAdmin):
     inlines = [
         ProductImageInline,
     ]
-    list_filter = ('sub_category', 'sub_category__category')
+    list_filter = ('category',)
+    list_display = ('id', 'title',  'price', 'importance')
 
 
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(SubCategory)
 admin.site.register(Product, ProductAdmin)

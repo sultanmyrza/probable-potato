@@ -28,15 +28,6 @@ class Category(models.Model):
         return [image.image.url for image in self.categoryimage_set.all()]
 
 
-class SubCategory(models.Model):
-    title = models.CharField(max_length=120, blank=False, null=False,
-                              verbose_name=_('Title'))
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
-
-    def __unicode__(self):
-        return self.title
-
-
 class CategoryImage(models.Model):
     image = models.ImageField(upload_to='shop_images/category', verbose_name=_('Image'))
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
@@ -53,7 +44,7 @@ class CategoryImage(models.Model):
 
 
 class Product(models.Model):
-    sub_category = models.ForeignKey(SubCategory, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
     title = models.CharField(max_length=120, blank=False, null=False,
                               verbose_name=_('Title'))
     description = models.TextField(blank=True, null=True, 
@@ -88,8 +79,10 @@ class Product(models.Model):
 class ProductImage(models.Model):
     image = models.ImageField(upload_to='shop_images/product', verbose_name=_('Image'))
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    cropping = ImageRatioField('image', '1920x700')
-    for_thumb = ImageRatioField('image', '400x300') 
+    carousel = ImageRatioField('image', '640x362')
+    promo = ImageRatioField('image', '300x400')
+    thumb = ImageRatioField('image', '300x200')
+    grid = ImageRatioField('image', '255x170')
 
     # def __str__(self):
     def __unicode__(self):

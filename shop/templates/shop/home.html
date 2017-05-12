@@ -1,0 +1,15 @@
+{% extends 'shop/base.html' %}
+
+
+{% block title %}3d needle lace{% endblock title %}
+
+{% block body %}
+    {% include 'shop/partials/header.html' with category=category %}
+    {% include 'shop/partials/carousel.html' with vip_products=vip_products %}
+    {% block content %}
+        {% include 'shop/partials/shop_grid.html' with products=products %}
+    {% endblock content %}
+    {% include 'shop/partials/sub_news.html' %}
+    {% include 'shop/partials/footer.html' %}
+
+{% endblock body %}

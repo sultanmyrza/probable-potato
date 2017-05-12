@@ -1,0 +1,47 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    {% block head %}
+        <title>{% block title %}Document{% endblock title %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Needles from tureky" />
+        <script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <meta charset utf="8">
+        <!--fonts-->
+        <link href='//fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+        <!--fonts-->
+        <!--bootstrap-->
+        <link href="{% static 'shop/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+        <!--coustom css-->
+        <link href="{% static 'shop/css/style.css' %}" rel="stylesheet" type="text/css"/>
+        <!--shop-kart-js-->
+        <script src="{% static 'shop/js/simpleCart.min.js' %}"></script>
+        <!--default-js-->
+        <script src="{% static 'shop/js/jquery-2.1.4.min.js' %}"></script>
+        <!--bootstrap-js-->
+        <script src="{% static 'shop/js/bootstrap.min.js' %}"></script>
+        <!--script-->
+    {% endblock head %}
+</head>
+<body>
+{% block body %}
+    {# header #}
+    {# carousel #}
+    {# promo #}
+    {# {% include 'shop/partials/promo.html' %} #}
+
+    {% block content %}
+        {# (shop_grid or products) #}
+    {% endblock content %}
+
+    {# sub_news #}
+    {% include 'shop/partials/sub_news.html' %}
+    {# footer #}
+    {% include 'shop/partials/footer.html' %}
+{% endblock body %}
+</body>
+</html>
+

@@ -20,11 +20,14 @@ from django.contrib import admin
 
 from core import urls as core_urls
 from shop import urls as shop_urls
+from snote import urls as snote_urls
 
 urlpatterns = [
     url(r'^', include(core_urls, namespace='core')),
     url(r'^shop/', include(shop_urls, namespace='shop')),
+    url(r'^snote/', include(snote_urls, namespace='snote')),
     url(r'^admin/', admin.site.urls),
+    url(r'^redactor/', include('redactor.urls'))
 ]
 
 if settings.DEBUG:

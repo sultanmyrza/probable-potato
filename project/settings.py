@@ -25,8 +25,8 @@ SECRET_KEY = 'y60#kqjp+0+=j+1x$ht=ie-yg4=i@)u!@6ln&(sz%@qj+rv_t4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['128.199.158.164', 'localhost']
-
+# ALLOWED_HOSTS = ['128.199.158.164', 'localhost', '127.0.0.1:8000']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -40,7 +40,10 @@ INSTALLED_APPS = [
     # my apps
     'core',
     'shop',
+    'snote',
     # 3rd pary
+    'mptt',
+    'redactor',
     'image_cropping',
     'easy_thumbnails',
 ]
@@ -68,6 +71,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # my context processors
+                'shop.context_proccessors.shop_context',
             ],
         },
     },
@@ -150,3 +155,26 @@ from easy_thumbnails.conf import Settings as thumbnail_settings
 THUMBNAIL_PROCESSORS = (
     'image_cropping.thumbnail_processors.crop_corners',
 ) + thumbnail_settings.THUMBNAIL_PROCESSORS
+
+REDACTOR_OPTIONS = {
+    'lang': 'tr',
+    'plugins': [
+        'counter',
+        'filemanager',
+        'fontcolor',
+        'fontfamily',
+        'fontsize',
+        'fullscreen',
+        'imagemanager',
+        'inlinestyle',
+        # 'properties',
+        'source',
+        'table',
+        'texdirection',
+        'video',
+    ]
+}
+REDACTOR_UPLOAD = 'uploads/'
+
+
+SHOP_NAME = 'NeedLS'
